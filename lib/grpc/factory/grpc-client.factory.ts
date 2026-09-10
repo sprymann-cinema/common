@@ -2,7 +2,7 @@ import { Injectable } from '@nestjs/common';
 import {
   ClientGrpc,
   ClientProxyFactory,
-  MicroserviceOptions,
+  GrpcOptions,
   Transport,
 } from '@nestjs/microservices';
 
@@ -10,7 +10,7 @@ import {
 export class GrpcClientFactory {
   private clients = new Map<string, ClientGrpc>();
 
-  public createClient(options: NonNullable<MicroserviceOptions['options']>) {
+  public createClient(options: NonNullable<GrpcOptions['options']>) {
     return ClientProxyFactory.create({
       transport: Transport.GRPC,
       options,
