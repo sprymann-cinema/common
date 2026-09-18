@@ -1,6 +1,6 @@
 {
   "name": "@sprymann-cinema/common",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "description": "Core shared components for sprymann-cinema microservice ecosystem",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -30,6 +30,6 @@
     "@nestjs/common": "^12.0.1",
     "@nestjs/config": "^12.0.0",
     "@nestjs/microservices": "^12.0.1",
-    "@sprymann-cinema/contracts": "^1.1.7"
+    "@sprymann-cinema/contracts": "^1.2.1"
   }
 }
