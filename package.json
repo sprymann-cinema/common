@@ -1,6 +1,6 @@
 {
   "name": "@sprymann-cinema/common",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "description": "Core shared components for sprymann-cinema microservice ecosystem",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
