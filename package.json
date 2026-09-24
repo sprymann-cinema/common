@@ -30,6 +30,6 @@
     "@nestjs/common": "^12.0.1",
     "@nestjs/config": "^12.0.0",
     "@nestjs/microservices": "^12.0.1",
-    "@sprymann-cinema/contracts": "^1.2.2"
+    "@sprymann-cinema/contracts": "^1.2.3"
   }
 }
